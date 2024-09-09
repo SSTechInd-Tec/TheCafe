@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+}
+
+nav {
+  background: rgb(0, 0, 0);
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+}
+
+nav ul {
+  padding: 2px;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  width: 24.8%;
+  margin: 0;
+  padding: 15px 30px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+nav ul li:hover {
+  background: white;
+}
+
+nav ul li:hover a {
+  color: black;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+header {
+  background: url("../img/ft-img.jpg") no-repeat fixed;
+  background-size: cover;
+  height: 600px;
+  width: 100%;
+  position: relative;
+}
+
+header h1 {
+  color: white;
+  text-align: center;
+  font-size: 78px;
+  position: absolute;
+  top: 30%;
+  left: 45%;
+}
+
+.dp1 {
+  font-size: 15px;
+  color: white;
+  position: absolute;
+  top: 90%;
+  left: 3%;
+  background: black;
+  padding: 5px;
+}
+
+.dp2 {
+  font-size: 15px;
+  color: white;
+  position: absolute;
+  top: 90%;
+  right: 3%;
+  padding: 5px;
+}
+
+section {
+  width: 40%;
+  margin: 10px auto;
+  background-color: brown;
+  padding: 20px;
+  height: 600px;
+}
