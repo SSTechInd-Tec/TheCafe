@@ -19,7 +19,7 @@ nav ul li {
   display: inline-block;
   width: 24.8%;
   margin: 0;
-  padding: 15px 30px;
+  padding: 5px 20px;
   box-sizing: border-box;
   text-align: center;
 }
@@ -76,9 +76,95 @@ header h1 {
 }
 
 section {
-  width: 40%;
+  width: 35%;
   margin: 10px auto;
-  background-color: brown;
   padding: 20px;
   height: 600px;
+  text-align: center;
+}
+
+.title-style {
+  background: black;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  margin: 50px auto;
+  padding: 4px;
+}
+
+.para-1 {
+  text-align: justify;
+  font-size: 22px;
+  line-height: 35px;
+}
+
+.adver-1 {
+  text-align: left;
+  font-size: 22px;
+  background: rgb(218, 218, 218);
+  padding: 20px;
+  border-left: 15px solid rgb(144, 144, 144);
+}
+
+.adver-1 p:nth-child(1) {
+  font-style: italic;
+}
+
+img {
+  width: 100%;
+  margin: 15px 0;
+}
+
+.para-2 {
+  text-align: left;
+  font-size: 22px;
+  margin: 10px 0;
+}
+
+.main-menu-section {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.menu-btn-section {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  box-shadow: 1px 1px 2px 3px rgb(224, 224, 224);
+}
+
+.menu-btn-section button {
+  width: 49%;
+  border: none;
+  margin: 0;
+  display: inline-block;
+  background: white;
+  padding: 6px;
+}
+
+.menu-btn-section button:nth-child(1) {
+  background: rgb(106, 106, 106);
+  color: white;
+}
+
+.menu-items-section {
+  width: 100%;
+  padding: 30px;
+  box-sizing: border-box;
+  box-shadow: 1px 1px 2px 3px rgb(224, 224, 224);
+}
+
+.menu-item {
+  text-align: left;
+  margin: 50px 0px;
+}
+
+.menu-item h3 {
+  font-weight: normal;
+  font-size: 20px;
+}
+
+.menu-item p {
+  color: rgb(147, 147, 147);
 }
